@@ -13,7 +13,7 @@ nav {
   height: 50px;
   padding: 5px 40px;
   box-sizing: border-box;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.3);
   z-index: 1;
 }
 
@@ -160,7 +160,7 @@ p {
 .testicon {
   background: black;
   width: 30%;
-  height: 50vh;
+  height: 40vh;
   text-align: center;
   padding-top: 1rem;
 }
@@ -310,4 +310,20 @@ footer {
   width: 100%;
   background-color: black;
   text-align: center;
+}
+
+/* landing media queries */
+@media screen and (max-width: 1235px) {
+  .container {
+    font-size: 30px;
+  }
+  @media screen and (max-width: 1000px) {
+  .container {
+    font-size: 20px;
+  }
+  @media screen and (max-width: 720px) {
+  .container {
+    color: red;
+  }
+    
 }
